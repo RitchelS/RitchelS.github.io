@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Turrialba</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"> 
+</head>
+
+<body>
+    <header>
+        <h1>Veterinaria Turrialba</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a> </li>
+                <li><a href="inisiosesion.html">Iniciar Sesión</a> </li>
+                <li><a href="animacion.html">Animación</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenido">
+            <div class="formulario">
+                <h2>Registro</h2>
+                <form id="formulario2" method="post">
+                    <div class="usuarios">
+                        <label>Nombre de Usuario: </label>
+                        <input id="nombre" type="text" required>
+                    </div>
+                    <div class="usuarios">
+                        <label>Correo electrónico: </label>
+                        <input id="email" type="email" required>
+                    </div>
+                    <div class="usuarios">
+                        <label>Contraseña: </label>
+                        <input id="contrasena" type="password" required>
+                    </div>
+                    <div class="usuarios">
+                        <label>Fecha de nacimiento: </label>
+                        <input id="fecha" type="date" required>
+                    </div>
+                    <div class="usuarios">
+                        <label>Cedula: </label>
+                        <input id="cedula" type="number" required>
+                    </div>
+                    <div class="usuarios">
+                        <label>Genero: </label>
+                        <select name="genero">
+                            <option value="fem">Femenino</option>
+                            <option value="masc" selected>Masculino</option>
+                            <option value="otro">Prefiero no decir</option>
+                          </select>
+                
+                    </div>
+                    <input id="botoningresar" type="submit" value="Registrar">
+                
+                </form>
+
+                
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Siguenos en redes sociales</p>
+        <div>
+            <a href="instagram.html">Instagram</a>
+        </div>
+        <p>Derechos de autor 2024</p>
+    </footer>
+</body>
+</html>
+
